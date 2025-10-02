@@ -6,3 +6,7 @@
   from = "/*"
   to = "/.netlify/functions/app"
   status = 200
+
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
